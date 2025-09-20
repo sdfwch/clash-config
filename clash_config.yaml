@@ -1,0 +1,210 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
+  nameserver:
+  - https://dns.google/dns-query
+  - https://cloudflare-dns.com/dns-query
+proxies:
+- name: snippets-2025/10/04 22:39
+  type: vless
+  server: snipaste5.speedip.eu.org
+  port: 2087
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-1 by:https://t.me/bestip_one
+  type: vless
+  server: 104.26.13.31
+  port: 2053
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-2 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste4.speedip.eu.org
+  port: 443
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-3 by:https://t.me/bestip_one
+  type: vless
+  server: 104.26.12.31
+  port: 2087
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-4 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste2.speedip.eu.org
+  port: 2083
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-5 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste1.speedip.eu.org
+  port: 8443
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-6 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste3.speedip.eu.org
+  port: 443
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-7 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste2.speedip.eu.org
+  port: 2053
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-8 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste3.speedip.eu.org
+  port: 2087
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-9 by:https://t.me/bestip_one
+  type: vless
+  server: snipaste1.speedip.eu.org
+  port: 2053
+  uuid: 01996790-ecb4-f8f9-e5a2-f7220b57f63a
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+proxy-groups:
+- name: PROXY
+  type: select
+  proxies:
+  - 自动选择
+  - 故障转移
+  - 负载均衡
+  - snippets-2025/10/04 22:39
+  - snippets-1 by:https://t.me/bestip_one
+  - snippets-2 by:https://t.me/bestip_one
+  - snippets-3 by:https://t.me/bestip_one
+  - snippets-4 by:https://t.me/bestip_one
+  - snippets-5 by:https://t.me/bestip_one
+  - snippets-6 by:https://t.me/bestip_one
+  - snippets-7 by:https://t.me/bestip_one
+  - snippets-8 by:https://t.me/bestip_one
+  - snippets-9 by:https://t.me/bestip_one
+- name: 自动选择
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - snippets-2025/10/04 22:39
+  - snippets-1 by:https://t.me/bestip_one
+  - snippets-2 by:https://t.me/bestip_one
+  - snippets-3 by:https://t.me/bestip_one
+  - snippets-4 by:https://t.me/bestip_one
+  - snippets-5 by:https://t.me/bestip_one
+  - snippets-6 by:https://t.me/bestip_one
+  - snippets-7 by:https://t.me/bestip_one
+  - snippets-8 by:https://t.me/bestip_one
+  - snippets-9 by:https://t.me/bestip_one
+- name: 故障转移
+  type: fallback
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - snippets-2025/10/04 22:39
+  - snippets-1 by:https://t.me/bestip_one
+  - snippets-2 by:https://t.me/bestip_one
+  - snippets-3 by:https://t.me/bestip_one
+  - snippets-4 by:https://t.me/bestip_one
+  - snippets-5 by:https://t.me/bestip_one
+  - snippets-6 by:https://t.me/bestip_one
+  - snippets-7 by:https://t.me/bestip_one
+  - snippets-8 by:https://t.me/bestip_one
+  - snippets-9 by:https://t.me/bestip_one
+- name: 负载均衡
+  type: load-balance
+  url: http://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - snippets-2025/10/04 22:39
+  - snippets-1 by:https://t.me/bestip_one
+  - snippets-2 by:https://t.me/bestip_one
+  - snippets-3 by:https://t.me/bestip_one
+  - snippets-4 by:https://t.me/bestip_one
+  - snippets-5 by:https://t.me/bestip_one
+  - snippets-6 by:https://t.me/bestip_one
+  - snippets-7 by:https://t.me/bestip_one
+  - snippets-8 by:https://t.me/bestip_one
+  - snippets-9 by:https://t.me/bestip_one
+rules:
+- DOMAIN-SUFFIX,google.com,PROXY
+- DOMAIN-SUFFIX,github.com,PROXY
+- DOMAIN-KEYWORD,adsense,PROXY
+- GEOIP,CN,DIRECT
+- MATCH,DIRECT
