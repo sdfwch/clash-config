@@ -10,11 +10,11 @@ dns:
   - https://dns.google/dns-query
   - https://cloudflare-dns.com/dns-query
 proxies:
-- name: snippets-2025/10/04 23:00
+- name: snippets-2025/10/05 12:10
   type: vless
-  server: 104.26.12.31
-  port: 2087
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: 104.26.13.31
+  port: 8443
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -25,9 +25,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-1 by:https://t.me/bestip_one
   type: vless
-  server: 104.26.13.31
-  port: 2087
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: snipaste5.speedip.eu.org
+  port: 2053
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -38,9 +38,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-2 by:https://t.me/bestip_one
   type: vless
-  server: snipaste3.speedip.eu.org
-  port: 8443
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: snipaste2.speedip.eu.org
+  port: 443
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -51,9 +51,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-3 by:https://t.me/bestip_one
   type: vless
-  server: snipaste5.speedip.eu.org
-  port: 2053
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: snipaste1.speedip.eu.org
+  port: 2083
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -64,9 +64,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-4 by:https://t.me/bestip_one
   type: vless
-  server: snipaste2.speedip.eu.org
-  port: 2087
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: snipaste3.speedip.eu.org
+  port: 2083
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -78,8 +78,8 @@ proxies:
 - name: snippets-5 by:https://t.me/bestip_one
   type: vless
   server: snipaste4.speedip.eu.org
-  port: 2053
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  port: 2087
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -90,9 +90,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-6 by:https://t.me/bestip_one
   type: vless
-  server: snipaste1.speedip.eu.org
-  port: 8443
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: 104.26.12.31
+  port: 2096
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -103,9 +103,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-7 by:https://t.me/bestip_one
   type: vless
-  server: 104.26.13.31
+  server: 104.26.12.31
   port: 2087
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -116,9 +116,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-8 by:https://t.me/bestip_one
   type: vless
-  server: snipaste2.speedip.eu.org
-  port: 2053
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: 104.26.13.31
+  port: 443
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -129,9 +129,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-9 by:https://t.me/bestip_one
   type: vless
-  server: 104.26.12.31
-  port: 8443
-  uuid: 019967a3-de1a-2528-8f62-5c88f526a767
+  server: snipaste1.speedip.eu.org
+  port: 2083
+  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -147,7 +147,7 @@ proxy-groups:
   - 自动选择
   - 故障转移
   - 负载均衡
-  - snippets-2025/10/04 23:00
+  - snippets-2025/10/05 12:10
   - snippets-1 by:https://t.me/bestip_one
   - snippets-2 by:https://t.me/bestip_one
   - snippets-3 by:https://t.me/bestip_one
@@ -162,7 +162,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - snippets-2025/10/04 23:00
+  - snippets-2025/10/05 12:10
   - snippets-1 by:https://t.me/bestip_one
   - snippets-2 by:https://t.me/bestip_one
   - snippets-3 by:https://t.me/bestip_one
@@ -177,7 +177,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - snippets-2025/10/04 23:00
+  - snippets-2025/10/05 12:10
   - snippets-1 by:https://t.me/bestip_one
   - snippets-2 by:https://t.me/bestip_one
   - snippets-3 by:https://t.me/bestip_one
@@ -192,7 +192,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - snippets-2025/10/04 23:00
+  - snippets-2025/10/05 12:10
   - snippets-1 by:https://t.me/bestip_one
   - snippets-2 by:https://t.me/bestip_one
   - snippets-3 by:https://t.me/bestip_one
