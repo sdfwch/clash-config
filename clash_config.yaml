@@ -10,37 +10,11 @@ dns:
   - https://dns.google/dns-query
   - https://cloudflare-dns.com/dns-query
 proxies:
-- name: snippets-2025/10/05 12:10
-  type: vless
-  server: 104.26.13.31
-  port: 8443
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
-  tls: true
-  servername: hkg.fangwenchang.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    headers:
-      Host: hkg.fangwenchang.dpdns.org
-- name: snippets-1 by:https://t.me/bestip_one
-  type: vless
-  server: snipaste5.speedip.eu.org
-  port: 2053
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
-  tls: true
-  servername: hkg.fangwenchang.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    headers:
-      Host: hkg.fangwenchang.dpdns.org
-- name: snippets-2 by:https://t.me/bestip_one
+- name: snippets-1 t.me/bestip_one
   type: vless
   server: snipaste2.speedip.eu.org
   port: 443
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -49,11 +23,11 @@ proxies:
     path: /snippets?ip=proxyip:port(443)&nat64=6to4
     headers:
       Host: hkg.fangwenchang.dpdns.org
-- name: snippets-3 by:https://t.me/bestip_one
+- name: snippets-2 t.me/bestip_one
   type: vless
-  server: snipaste1.speedip.eu.org
-  port: 2083
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
+  server: 104.26.13.31
+  port: 2053
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -62,11 +36,24 @@ proxies:
     path: /snippets?ip=proxyip:port(443)&nat64=6to4
     headers:
       Host: hkg.fangwenchang.dpdns.org
-- name: snippets-4 by:https://t.me/bestip_one
+- name: snippets-3 t.me/bestip_one
+  type: vless
+  server: snipaste5.speedip.eu.org
+  port: 8443
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-4 t.me/bestip_one
   type: vless
   server: snipaste3.speedip.eu.org
-  port: 2083
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
+  port: 2096
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -75,11 +62,37 @@ proxies:
     path: /snippets?ip=proxyip:port(443)&nat64=6to4
     headers:
       Host: hkg.fangwenchang.dpdns.org
-- name: snippets-5 by:https://t.me/bestip_one
+- name: snippets-5 t.me/bestip_one
+  type: vless
+  server: snipaste1.speedip.eu.org
+  port: 2096
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-6 t.me/bestip_one
+  type: vless
+  server: 104.26.12.31
+  port: 2087
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-7 t.me/bestip_one
   type: vless
   server: snipaste4.speedip.eu.org
   port: 2087
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -88,11 +101,11 @@ proxies:
     path: /snippets?ip=proxyip:port(443)&nat64=6to4
     headers:
       Host: hkg.fangwenchang.dpdns.org
-- name: snippets-6 by:https://t.me/bestip_one
+- name: snippets-8 t.me/bestip_one
   type: vless
-  server: 104.26.12.31
-  port: 2096
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
+  server: snipaste2.speedip.eu.org
+  port: 8443
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -101,37 +114,24 @@ proxies:
     path: /snippets?ip=proxyip:port(443)&nat64=6to4
     headers:
       Host: hkg.fangwenchang.dpdns.org
-- name: snippets-7 by:https://t.me/bestip_one
-  type: vless
-  server: 104.26.12.31
-  port: 2087
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
-  tls: true
-  servername: hkg.fangwenchang.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    headers:
-      Host: hkg.fangwenchang.dpdns.org
-- name: snippets-8 by:https://t.me/bestip_one
-  type: vless
-  server: 104.26.13.31
-  port: 443
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
-  tls: true
-  servername: hkg.fangwenchang.dpdns.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /snippets?ip=proxyip:port(443)&nat64=6to4
-    headers:
-      Host: hkg.fangwenchang.dpdns.org
-- name: snippets-9 by:https://t.me/bestip_one
+- name: snippets-9 t.me/bestip_one
   type: vless
   server: snipaste1.speedip.eu.org
-  port: 2083
-  uuid: 01996a77-719d-7cc8-5d9c-8a0b699cf9c4
+  port: 2053
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
+  tls: true
+  servername: hkg.fangwenchang.dpdns.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /snippets?ip=proxyip:port(443)&nat64=6to4
+    headers:
+      Host: hkg.fangwenchang.dpdns.org
+- name: snippets-10 t.me/bestip_one
+  type: vless
+  server: snipaste3.speedip.eu.org
+  port: 2053
+  uuid: 01996f9e-7872-5f62-4d4d-46e0671396d5
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -147,61 +147,61 @@ proxy-groups:
   - 自动选择
   - 故障转移
   - 负载均衡
-  - snippets-2025/10/05 12:10
-  - snippets-1 by:https://t.me/bestip_one
-  - snippets-2 by:https://t.me/bestip_one
-  - snippets-3 by:https://t.me/bestip_one
-  - snippets-4 by:https://t.me/bestip_one
-  - snippets-5 by:https://t.me/bestip_one
-  - snippets-6 by:https://t.me/bestip_one
-  - snippets-7 by:https://t.me/bestip_one
-  - snippets-8 by:https://t.me/bestip_one
-  - snippets-9 by:https://t.me/bestip_one
+  - snippets-1 t.me/bestip_one
+  - snippets-2 t.me/bestip_one
+  - snippets-3 t.me/bestip_one
+  - snippets-4 t.me/bestip_one
+  - snippets-5 t.me/bestip_one
+  - snippets-6 t.me/bestip_one
+  - snippets-7 t.me/bestip_one
+  - snippets-8 t.me/bestip_one
+  - snippets-9 t.me/bestip_one
+  - snippets-10 t.me/bestip_one
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - snippets-2025/10/05 12:10
-  - snippets-1 by:https://t.me/bestip_one
-  - snippets-2 by:https://t.me/bestip_one
-  - snippets-3 by:https://t.me/bestip_one
-  - snippets-4 by:https://t.me/bestip_one
-  - snippets-5 by:https://t.me/bestip_one
-  - snippets-6 by:https://t.me/bestip_one
-  - snippets-7 by:https://t.me/bestip_one
-  - snippets-8 by:https://t.me/bestip_one
-  - snippets-9 by:https://t.me/bestip_one
+  - snippets-1 t.me/bestip_one
+  - snippets-2 t.me/bestip_one
+  - snippets-3 t.me/bestip_one
+  - snippets-4 t.me/bestip_one
+  - snippets-5 t.me/bestip_one
+  - snippets-6 t.me/bestip_one
+  - snippets-7 t.me/bestip_one
+  - snippets-8 t.me/bestip_one
+  - snippets-9 t.me/bestip_one
+  - snippets-10 t.me/bestip_one
 - name: 故障转移
   type: fallback
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - snippets-2025/10/05 12:10
-  - snippets-1 by:https://t.me/bestip_one
-  - snippets-2 by:https://t.me/bestip_one
-  - snippets-3 by:https://t.me/bestip_one
-  - snippets-4 by:https://t.me/bestip_one
-  - snippets-5 by:https://t.me/bestip_one
-  - snippets-6 by:https://t.me/bestip_one
-  - snippets-7 by:https://t.me/bestip_one
-  - snippets-8 by:https://t.me/bestip_one
-  - snippets-9 by:https://t.me/bestip_one
+  - snippets-1 t.me/bestip_one
+  - snippets-2 t.me/bestip_one
+  - snippets-3 t.me/bestip_one
+  - snippets-4 t.me/bestip_one
+  - snippets-5 t.me/bestip_one
+  - snippets-6 t.me/bestip_one
+  - snippets-7 t.me/bestip_one
+  - snippets-8 t.me/bestip_one
+  - snippets-9 t.me/bestip_one
+  - snippets-10 t.me/bestip_one
 - name: 负载均衡
   type: load-balance
   url: http://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - snippets-2025/10/05 12:10
-  - snippets-1 by:https://t.me/bestip_one
-  - snippets-2 by:https://t.me/bestip_one
-  - snippets-3 by:https://t.me/bestip_one
-  - snippets-4 by:https://t.me/bestip_one
-  - snippets-5 by:https://t.me/bestip_one
-  - snippets-6 by:https://t.me/bestip_one
-  - snippets-7 by:https://t.me/bestip_one
-  - snippets-8 by:https://t.me/bestip_one
-  - snippets-9 by:https://t.me/bestip_one
+  - snippets-1 t.me/bestip_one
+  - snippets-2 t.me/bestip_one
+  - snippets-3 t.me/bestip_one
+  - snippets-4 t.me/bestip_one
+  - snippets-5 t.me/bestip_one
+  - snippets-6 t.me/bestip_one
+  - snippets-7 t.me/bestip_one
+  - snippets-8 t.me/bestip_one
+  - snippets-9 t.me/bestip_one
+  - snippets-10 t.me/bestip_one
 rules:
 - DOMAIN-SUFFIX,google.com,PROXY
 - DOMAIN-SUFFIX,github.com,PROXY
