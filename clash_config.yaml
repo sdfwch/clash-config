@@ -13,8 +13,8 @@ proxies:
 - name: snippets-1 t.me/bestip_one
   type: vless
   server: snipaste1.speedip.eu.org
-  port: 2083
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  port: 8443
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -25,9 +25,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-2 t.me/bestip_one
   type: vless
-  server: snipaste5.speedip.eu.org
+  server: snipaste3.speedip.eu.org
   port: 443
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -38,9 +38,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-3 t.me/bestip_one
   type: vless
-  server: 104.26.13.31
-  port: 2087
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  server: snipaste4.speedip.eu.org
+  port: 2083
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -51,9 +51,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-4 t.me/bestip_one
   type: vless
-  server: 104.26.12.31
-  port: 2087
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  server: snipaste5.speedip.eu.org
+  port: 2096
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -66,7 +66,7 @@ proxies:
   type: vless
   server: snipaste2.speedip.eu.org
   port: 2096
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -77,9 +77,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-6 t.me/bestip_one
   type: vless
-  server: snipaste3.speedip.eu.org
-  port: 443
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  server: 104.26.13.31
+  port: 8443
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -90,9 +90,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-7 t.me/bestip_one
   type: vless
-  server: snipaste4.speedip.eu.org
-  port: 2096
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  server: 104.26.12.31
+  port: 8443
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -104,8 +104,8 @@ proxies:
 - name: snippets-8 t.me/bestip_one
   type: vless
   server: snipaste1.speedip.eu.org
-  port: 2053
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  port: 2087
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -116,9 +116,9 @@ proxies:
       Host: hkg.fangwenchang.dpdns.org
 - name: snippets-9 t.me/bestip_one
   type: vless
-  server: snipaste4.speedip.eu.org
-  port: 2053
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  server: 104.26.13.31
+  port: 2087
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
@@ -131,7 +131,7 @@ proxies:
   type: vless
   server: snipaste3.speedip.eu.org
   port: 2053
-  uuid: 019e15d2-c12e-7417-0eb0-979c1d9e558c
+  uuid: 019e1ae0-6bc8-4dca-ad59-ce3623807c48
   tls: true
   servername: hkg.fangwenchang.dpdns.org
   client-fingerprint: chrome
